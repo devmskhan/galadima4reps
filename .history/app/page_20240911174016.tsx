@@ -77,7 +77,7 @@ export default function Home() {
         alt="people having business interaction"
         className="w-full h-48 object-cover mb-4 rounded-lg"
       />
-      <h3 className="text-xl font-bold mb-2 text-gray-800">Empowerment</h3>
+      <h3 className="text-xl font-bold mb-2 ">Empowerment</h3>
       <p className="text-gray-700 mb-4">
         Empowering the people with the necessary skills for successful development
         and reliance...

@@ -48,7 +48,7 @@ export default function Home() {
         alt="Young black students studying in a conducive classroom"
         className="w-full h-48 object-cover mb-4 rounded-lg"
       />
-      <h3 className="text-xl font-bold mb-2 text-gray-800">Provide standard education to the local communities</h3>
+      <h3 className="text-xl font-bold mb-2 text-gray-">Provide standard education to the local communities</h3>
       <p className="text-gray-700 mb-4">
         Our primitive agenda is to provide a conducive environment for students
         to have better education as it is the key to the progress of every
@@ -63,7 +63,7 @@ export default function Home() {
         alt="Beautiful road in an area"
         className="w-full h-48 object-cover mb-4 rounded-lg"
       />
-      <h3 className="text-xl font-bold mb-2 text-gray-800">Advance infrastructural development</h3>
+      <h3 className="text-xl font-bold mb-2">Advance infrastructural development</h3>
       <p className="text-gray-700 mb-4">
         We aim at building and erecting state of the arts structures for the betterment
         and future development of our people...
@@ -77,7 +77,7 @@ export default function Home() {
         alt="people having business interaction"
         className="w-full h-48 object-cover mb-4 rounded-lg"
       />
-      <h3 className="text-xl font-bold mb-2 text-gray-800">Empowerment</h3>
+      <h3 className="text-xl font-bold mb-2">Empowerment</h3>
       <p className="text-gray-700 mb-4">
         Empowering the people with the necessary skills for successful development
         and reliance...
