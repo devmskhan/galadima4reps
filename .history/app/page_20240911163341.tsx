@@ -73,7 +73,7 @@ export default function Home() {
 
     <article className="bg-white p-6 rounded-lg shadow">
       <img
-        src="https://images.pexels.com/photos/4320473/pexels-photo-4320473.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        src="https://example.com/business-interaction.jpg"
         alt="people having business interaction"
         className="w-full h-48 object-cover mb-4 rounded-lg"
       />

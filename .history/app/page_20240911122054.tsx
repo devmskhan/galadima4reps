@@ -44,7 +44,7 @@ export default function Home() {
     
     <article className="bg-white p-6 rounded-lg shadow">
       <img
-        src="https://images.unsplash.com/photo-1632215861513-130b66fe97f4?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        src="https://example.com/young-students.jpg"
         alt="Young black students studying in a conducive classroom"
         className="w-full h-48 object-cover mb-4 rounded-lg"
       />
@@ -59,7 +59,7 @@ export default function Home() {
 
     <article className="bg-white p-6 rounded-lg shadow">
       <img
-        src="https://images.unsplash.com/photo-1701764558596-3fcf413463d0?q=80&w=1482&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        src="https://example.com/beautiful-road.jpg"
         alt="Beautiful road in an area"
         className="w-full h-48 object-cover mb-4 rounded-lg"
       />
@@ -73,8 +73,8 @@ export default function Home() {
 
     <article className="bg-white p-6 rounded-lg shadow">
       <img
-        src="https://images.pexels.com/photos/4320473/pexels-photo-4320473.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-        alt="people having business interaction"
+        src="https://example.com/business-interaction.jpg"
+        alt=" people having business interaction"
         className="w-full h-48 object-cover mb-4 rounded-lg"
       />
       <h3 className="text-xl font-bold mb-2">Empowernment</h3>
