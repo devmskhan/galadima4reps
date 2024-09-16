@@ -79,7 +79,7 @@ function Header() {
         </span>
       </div>
     </Marquee>
-        <Link href="/News" className="text-blue-600 font-semibold underline ml-6 text-sm">
+        <Link href="/N" className="text-blue-600 font-semibold underline ml-6 text-sm">
           Read More
         </Link>
   </div>

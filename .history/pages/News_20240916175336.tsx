@@ -1,3 +1,4 @@
+
 import { Bars3Icon } from '@heroicons/react/24/outline'
 import {
   DropdownMenu,
@@ -7,74 +8,21 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
-import Link from 'next/link';
-import "../app/globals.css";
 
 
 function News() {
     return (
         <div className="bg-gray-400">
-            <header className="sticky top-0 bg-white text-gray-800 py-4">
-  <div className="container mx-auto flex justify-between items-center">
-    <div className="flex items-center space-x-3">
-      <img src="/logo.png" alt="Logo" className="h-10 w-14" />
-      <h1 className="text-4xl text-emerald-600 font-bold mb-4">
-        Welcome to the Official Campaign of <span className="text-orange-800">Galadima</span>
-      </h1>
-    </div>
-    <div>
-      <DropdownMenu>
-        <DropdownMenuTrigger>
-          <Bars3Icon className="h-8 w-8 text-gray-800 cursor-pointer" />
-        </DropdownMenuTrigger>
-        <DropdownMenuContent>
-          <DropdownMenuLabel>Galadima</DropdownMenuLabel>
-          <DropdownMenuSeparator />
-          <DropdownMenuItem asChild>
-            <Link href="/">Home</Link>
-          </DropdownMenuItem>
-          <DropdownMenuItem asChild>
-            <Link href="/Manifesto">Manifesto</Link>
-          </DropdownMenuItem>
-          <DropdownMenuItem asChild>
-            <Link href="/AboutGaladima">About Galadima</Link>
-          </DropdownMenuItem>
-          <DropdownMenuItem asChild>
-            <Link href="/Membership">Membership</Link>
-          </DropdownMenuItem>
-          <DropdownMenuItem asChild>
-            <Link href="/Empowerment">Empowerment</Link>
-          </DropdownMenuItem>
-          <DropdownMenuItem asChild>
-            <Link href="/Schorlarships">Schorlarships</Link>
-          </DropdownMenuItem>
-          <DropdownMenuItem asChild>
-            <Link href="/News">News</Link>
-          </DropdownMenuItem>
-          <DropdownMenuItem asChild>
-            <Link href="/Gallery">Gallery</Link>
-          </DropdownMenuItem>
-          <DropdownMenuItem asChild>
-            <Link href="/QuickLinks">Quick links</Link>
-          </DropdownMenuItem>
-          <DropdownMenuItem asChild>
-            <Link href="/ContactUs">Contact us</Link>
-          </DropdownMenuItem>
-        </DropdownMenuContent>
-      </DropdownMenu>
-    </div>
-  </div>
-
-  
-</header>
+            <Header/>
 
             <main className="container mx-auto py-12">
-  <h2 className="sticky top-12 text-2xl font-bold text-center mb-8 text-gray-800">latest News</h2>
+  <h2 className="text-2xl font-bold text-center mb-8 text-gray-800">Our Vision & Missions</h2>
   <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
     
     <article className="bg-white p-6 rounded-lg shadow">
       <img
-        src="/class.jpg"
+        src="https://images.unsplash.com/photo-1632215861513-130b66fe97f4?q=80&w=1469&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        alt="Young black students studying in a conducive classroom"
         className="w-full h-48 object-cover mb-4 rounded-lg"
       />
       <h3 className="text-xl font-bold mb-2 text-gray-800">Provide standard education to the local communities</h3>
@@ -116,11 +64,6 @@ function News() {
     
   </div>
 </main>
-<footer className="bg-gray-900 text-white py-8">
-<div className="container mx-auto text-center">
-  <p>&copy; 2024 Hon. Aminu Galadima All rights reserved.</p>
-</div>
-</footer>
         </div>
 
     )

@@ -69,12 +69,12 @@ function News() {
 </header>
 
             <main className="container mx-auto py-12">
-  <h2 className="sticky top-12 text-2xl font-bold text-center mb-8 text-gray-800">latest News</h2>
+  <h2 className="text-2xl font-bold text-center mb-8 text-gray-800">Our Vision & Missions</h2>
   <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
     
     <article className="bg-white p-6 rounded-lg shadow">
       <img
-        src="/class.jpg"
+        src=""
         className="w-full h-48 object-cover mb-4 rounded-lg"
       />
       <h3 className="text-xl font-bold mb-2 text-gray-800">Provide standard education to the local communities</h3>
@@ -116,11 +116,6 @@ function News() {
     
   </div>
 </main>
-<footer className="bg-gray-900 text-white py-8">
-<div className="container mx-auto text-center">
-  <p>&copy; 2024 Hon. Aminu Galadima All rights reserved.</p>
-</div>
-</footer>
         </div>
 
     )
