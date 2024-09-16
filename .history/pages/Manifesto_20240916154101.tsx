@@ -26,58 +26,58 @@ function Manifesto() {
             <p></p>
             <ul className="list-disc list-inside mt-4">
               <li className="text-gray-800">Attract new industries and investment while ensuring eco-frienndly prcatices</li>
-              <li className="text-gray-800">Implement measures to mitigate environmental challenges and promote sustainable development</li>
+              <li className="">Implement measures to mitigate environmental challenges and promote sustainable development</li>
               
             </ul>
           </div>
 
           {/* Education */}
           <div className="policy bg-gray-100 p-6 mb-8 rounded-md shadow-md">
-            <h3 className="text-gray-800 text-2xl font-bold mb-4">Education Revolution</h3>
-            <p className="text-gray-800">Education is the foundation of our future. We are committed to investing in schools, modernizing curriculum, and ensuring that every child has access to quality education.</p>
+            <h3 className="text-2xl font-bold mb-4">Education Revolution</h3>
+            <p>Education is the foundation of our future. We are committed to investing in schools, modernizing curriculum, and ensuring that every child has access to quality education.</p>
             <ul className="list-disc list-inside mt-4">
-              <li className="text-gray-800">Advocate for increased funding and resources for schools</li>
-              <li className="text-gray-800">Introduce initiatives for skill development, vocational training and digital literacy</li>
+              <li>Advocate for increased funding and resources for schools</li>
+              <li>Introduce initiatives for skill development, vocational training and digital literacy</li>
             </ul>
           </div>
 
           {/* Empowerment */}
           <div className="policy bg-gray-100 p-6 mb-8 rounded-md shadow-md">
-            <h3 className="text-gray-800 text-2xl font-bold mb-4">Youth Empowerment & Employment</h3>
+            <h3 className="text-2xl font-bold mb-4">Youth Empowerment & Employment</h3>
             <p></p>
             <ul className="list-disc list-inside mt-4">
-              <li className="text-gray-800">Create 10,000 new jobs in the next five years</li>
-              <li className="">Develop and support programs for entreneurship, job creation and mentorship</li>
-              <li className="text-gray-800">Collaborative with industries to provide training and employment opportunities</li>
+              <li>Create 10,000 new jobs in the next five years</li>
+              <li>Develop and support programs for entreneurship, job creation and mentorship</li>
+              <li>Collaborative with industries to provide training and employment opportunities</li>
             </ul>
           </div>
 
           {/* Infrastructure */}
           <div className="policy bg-gray-100 p-6 mb-8 rounded-md shadow-md">
-            <h3 className="text-gray-800 text-2xl font-bold mb-4">Infrastructural Development</h3>
-            <p className="text-gray-800">Our infrastructure policy will prioritize the development of roads, bridges, and public transportation systems to enhance connectivity and spur economic growth.</p>
+            <h3 className="text-2xl font-bold mb-4">Infrastructural Development</h3>
+            <p>Our infrastructure policy will prioritize the development of roads, bridges, and public transportation systems to enhance connectivity and spur economic growth.</p>
             <ul className="list-disc list-inside mt-4">
-              <li className="text-gray-800">Upgrade roads, transportation and public amenities</li>
-              <li className="text-gray-800">Ensure efficient waste management and environmental conservation</li>
-              <li className="text-gray-800">Build more affordable housing and public utilities</li>
+              <li>Upgrade roads, transportation and public amenities</li>
+              <li>Ensure efficient waste management and environmental conservation</li>
+              <li>Build more affordable housing and public utilities</li>
             </ul>
           </div>
 
           <div className="policy bg-gray-100 p-6 mb-8 rounded-md shadow-md">
-            <h3 className="text-gray-800 text-2xl font-bold mb-4">Healthcare & Social Welfare</h3>
+            <h3 className="text-2xl font-bold mb-4">Healthcare & Social Welfare</h3>
             <p></p>
             <ul className="list-disc list-inside mt-4">
-              <li className="text-gray-800">Improve access to quality healthcare services and facilities</li>
-              <li className="text-gray-800">Enhance social welfare programs for vulnerable population</li>
+              <li>Improve access to quality healthcare services and facilities</li>
+              <li>Enhance social welfare programs for vulnerable population</li>
             </ul>
           </div>
 
           <div className="policy bg-gray-100 p-6 mb-8 rounded-md shadow-md">
-            <h3 className="text-gray-800 text-2xl font-bold mb-4">Transparency & Accountability</h3>
+            <h3 className="text-2xl font-bold mb-4">Transparency & Accountability</h3>
             <p></p>
             <ul className="list-disc list-inside mt-4">
-              <li className="text-gray-800">Foster open communication and regular townhall meetings</li>
-              <li className="text-gray-800">Promote transparency in governance and environmental conservation</li>
+              <li>Foster open communication and regular townhall meetings</li>
+              <li>Promote transparency in governance and environmental conservation</li>
             </ul>
           </div>
 

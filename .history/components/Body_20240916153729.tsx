@@ -35,15 +35,15 @@ function Body() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="highlight bg-gray-100 p-6 rounded-md shadow-md">
               <h3 className="text-gray-800 text-xl font-bold mb-4">Healthcare for All</h3>
-              <p className="text-gray-800">Our vision includes affordable healthcare for every citizen, making it a priority for our constituency.</p>
+              <p clas>Our vision includes affordable healthcare for every citizen, making it a priority for our constituency.</p>
             </div>
             <div className="highlight bg-gray-100 p-6 rounded-md shadow-md">
-              <h3 className="text-gray-800 text-xl font-bold mb-4">Quality Education</h3>
-              <p className="text-gray-800">We aim to improve the quality of education, ensuring access to modern learning tools for students.</p>
+              <h3 className="text-xl font-bold mb-4">Quality Education</h3>
+              <p>We aim to improve the quality of education, ensuring access to modern learning tools for students.</p>
             </div>
-            <div className="text-gray-800 highlight bg-gray-100 p-6 rounded-md shadow-md">
-              <h3 className="text--gray-800 text-xl font-bold mb-4">Economic Growth</h3>
-              <p className="text-gray-800">Creating jobs and supporting local businesses is at the heart of our economic policy.</p>
+            <div className="highlight bg-gray-100 p-6 rounded-md shadow-md">
+              <h3 className="text-xl font-bold mb-4">Economic Growth</h3>
+              <p>Creating jobs and supporting local businesses is at the heart of our economic policy.</p>
             </div>
           </div>
         </div>

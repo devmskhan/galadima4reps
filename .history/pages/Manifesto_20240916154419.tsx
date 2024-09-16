@@ -77,7 +77,7 @@ function Manifesto() {
             <p></p>
             <ul className="list-disc list-inside mt-4">
               <li className="text-gray-800">Foster open communication and regular townhall meetings</li>
-              <li className="text-gray-800">Promote transparency in governance and environmental conservation</li>
+              <li>Promote transparency in governance and environmental conservation</li>
             </ul>
           </div>
 

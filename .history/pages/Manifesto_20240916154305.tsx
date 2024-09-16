@@ -58,26 +58,26 @@ function Manifesto() {
             <p className="text-gray-800">Our infrastructure policy will prioritize the development of roads, bridges, and public transportation systems to enhance connectivity and spur economic growth.</p>
             <ul className="list-disc list-inside mt-4">
               <li className="text-gray-800">Upgrade roads, transportation and public amenities</li>
-              <li className="text-gray-800">Ensure efficient waste management and environmental conservation</li>
-              <li className="text-gray-800">Build more affordable housing and public utilities</li>
+              <li >Ensure efficient waste management and environmental conservation</li>
+              <li>Build more affordable housing and public utilities</li>
             </ul>
           </div>
 
           <div className="policy bg-gray-100 p-6 mb-8 rounded-md shadow-md">
-            <h3 className="text-gray-800 text-2xl font-bold mb-4">Healthcare & Social Welfare</h3>
+            <h3 className="text-2xl font-bold mb-4">Healthcare & Social Welfare</h3>
             <p></p>
             <ul className="list-disc list-inside mt-4">
-              <li className="text-gray-800">Improve access to quality healthcare services and facilities</li>
-              <li className="text-gray-800">Enhance social welfare programs for vulnerable population</li>
+              <li>Improve access to quality healthcare services and facilities</li>
+              <li>Enhance social welfare programs for vulnerable population</li>
             </ul>
           </div>
 
           <div className="policy bg-gray-100 p-6 mb-8 rounded-md shadow-md">
-            <h3 className="text-gray-800 text-2xl font-bold mb-4">Transparency & Accountability</h3>
+            <h3 className="text-2xl font-bold mb-4">Transparency & Accountability</h3>
             <p></p>
             <ul className="list-disc list-inside mt-4">
-              <li className="text-gray-800">Foster open communication and regular townhall meetings</li>
-              <li className="text-gray-800">Promote transparency in governance and environmental conservation</li>
+              <li>Foster open communication and regular townhall meetings</li>
+              <li>Promote transparency in governance and environmental conservation</li>
             </ul>
           </div>
 
