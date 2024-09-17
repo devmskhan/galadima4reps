@@ -1,5 +1,4 @@
 
-import Link from 'next/link';
 
 function Body() {
     return (
@@ -27,8 +26,12 @@ function Body() {
         </p>
 
         {/* Donate Button - Visible below the text */}
-        <Link href="/Donation" className="bg-red-600 text-white font-bold py-2 px-6 rounded-full mt-4 inline-block hover:bg-red-700 transition duration-300">Donate</Link>
-        
+        <a
+          href="/donate"
+          className="bg-red-600 text-white font-bold py-2 px-6 rounded-full mt-4 inline-block hover:bg-red-700 transition duration-300"
+        >
+          Donate
+        </a>
       </div>
     </div>
 
@@ -43,8 +46,12 @@ function Body() {
 
     {/* Donate Button for Small Screens - Visible below the image */}
     <div className="block sm:hidden mt-4">
-    <Link href="/Donation" className="bg-red-600 text-white font-bold py-2 px-6 rounded-full mt-2 inline-block hover:bg-red-700 transition duration-300">Donate</Link>
-      
+      <a
+        href="/donate"
+        className="bg-red-600 text-white font-bold py-2 px-6 rounded-full mt-4 inline-block hover:bg-red-700 transition duration-300"
+      >
+        Donate
+      </a>
     </div>
   </div>
 </section>

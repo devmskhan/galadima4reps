@@ -1,4 +1,3 @@
-"use client"
 import { Bars3Icon } from '@heroicons/react/24/outline'
 import {
   DropdownMenu,
@@ -16,10 +15,7 @@ import { Typewriter } from 'react-simple-typewriter';
 function Header() {
     return (
       <header className="sticky top-0 bg-white text-gray-800 py-4">
-  <div className="container mx-auto flex justify-between items-center">
-    <div className="flex items-center space-x-3">
-      <img src="/logo.png" alt="Logo" className="h-10 w-14" />
-      <h1 className="text-2xl text-emerald-600 font-bold mb-4">
+  <h1 className="text-2xl text-emerald-600 font-bold mb-4">
       <span>
         <Typewriter
           words={['Welcome to the Official Campaign platform of']}
@@ -31,7 +27,7 @@ function Header() {
           delaySpeed={1000}
         />
       </span>{' '}
-      <span className="text-orange-800">Hon. Aminu Galadima</span>
+      <span className="text-orange-800">Galadima</span>
     </h1>
     </div>
     <div>

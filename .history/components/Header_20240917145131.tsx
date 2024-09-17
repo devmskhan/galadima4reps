@@ -1,4 +1,4 @@
-"use client"
+
 import { Bars3Icon } from '@heroicons/react/24/outline'
 import {
   DropdownMenu,
@@ -31,7 +31,7 @@ function Header() {
           delaySpeed={1000}
         />
       </span>{' '}
-      <span className="text-orange-800">Hon. Aminu Galadima</span>
+      <span className="text-orange-800">Galadima</span>
     </h1>
     </div>
     <div>

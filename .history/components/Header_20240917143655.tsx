@@ -1,4 +1,3 @@
-"use client"
 import { Bars3Icon } from '@heroicons/react/24/outline'
 import {
   DropdownMenu,
@@ -19,20 +18,7 @@ function Header() {
   <div className="container mx-auto flex justify-between items-center">
     <div className="flex items-center space-x-3">
       <img src="/logo.png" alt="Logo" className="h-10 w-14" />
-      <h1 className="text-2xl text-emerald-600 font-bold mb-4">
-      <span>
-        <Typewriter
-          words={['Welcome to the Official Campaign platform of']}
-          loop={false}
-          cursor
-          cursorStyle="_"
-          typeSpeed={70}
-          deleteSpeed={50}
-          delaySpeed={1000}
-        />
-      </span>{' '}
-      <span className="text-orange-800">Hon. Aminu Galadima</span>
-    </h1>
+      
     </div>
     <div>
     <DropdownMenu>

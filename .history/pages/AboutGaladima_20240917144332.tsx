@@ -1,6 +1,5 @@
-"use client"
-
 import Header from "../components/Header"
+
 import Image from 'next/image';
 import "../app/globals.css";
 
@@ -13,7 +12,7 @@ function AboutGaladima() {
 
   <div
     className="min-h-screen flex items-center justify-center bg-cover bg-center bg-opacity-50"
-    style={{ backgroundImage: "url('/udr2.jpeg')" }}
+    style={{ backgroundImage: "url('/udr2.jpeg')" }} // Add your background image path here
   >
     <div className="bg-white bg-opacity-80 p-8 rounded-lg shadow-lg max-w-3xl text-center">
       <div className="flex flex-col items-center">
