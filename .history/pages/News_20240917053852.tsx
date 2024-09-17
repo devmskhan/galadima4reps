@@ -42,16 +42,12 @@ function News() {
           <DropdownMenuItem asChild>
             <Link href="/Membership">Membership</Link>
           </DropdownMenuItem>
-          <DropdownMenuItem asChild>
           <span className="text-gray-500 cursor-not-allowed">
             Empowerment
           </span>
-        </DropdownMenuItem>
-        <DropdownMenuItem asChild>
-  <span className="text-gray-500 cursor-not-allowed">
-  Schorlarships
-  </span>
-</DropdownMenuItem>
+          <DropdownMenuItem asChild>
+            <Link href="/Schorlarships">Schorlarships</Link>
+          </DropdownMenuItem>
           <DropdownMenuItem asChild>
             <Link href="/News">News</Link>
           </DropdownMenuItem>
@@ -59,18 +55,11 @@ function News() {
             <Link href="/Gallery">Gallery</Link>
           </DropdownMenuItem>
           <DropdownMenuItem asChild>
-          <span className="text-gray-500 cursor-not-allowed">
-          Quick links
-          </span>
-        </DropdownMenuItem>
-        <DropdownMenuItem asChild>
-          <span className="text-gray-500 cursor-not-allowed">
-          Contact us
-          </span>
-        </DropdownMenuItem>
-          {/* <DropdownMenuItem asChild>
+            <Link href="/QuickLinks">Quick links</Link>
+          </DropdownMenuItem>
+          <DropdownMenuItem asChild>
             <Link href="/ContactUs">Contact us</Link>
-          </DropdownMenuItem> */}
+          </DropdownMenuItem>
         </DropdownMenuContent>
       </DropdownMenu>
     </div>

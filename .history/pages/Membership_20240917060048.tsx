@@ -10,7 +10,7 @@ function Membership() {
             <div className="min-h-screen bg-gray-100 flex items-center justify-center">
       <div className="bg-white p-8 rounded shadow-md w-full max-w-lg">
         <h2 className="text-2xl font-bold text-center text-emerald-600 mb-6">
-          Membership Form
+          PMembership Form
         </h2>
         
         <form className="space-y-4">

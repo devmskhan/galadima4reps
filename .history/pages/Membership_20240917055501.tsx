@@ -10,7 +10,7 @@ function Membership() {
             <div className="min-h-screen bg-gray-100 flex items-center justify-center">
       <div className="bg-white p-8 rounded shadow-md w-full max-w-lg">
         <h2 className="text-2xl font-bold text-center text-emerald-600 mb-6">
-          Membership Form
+          Political Membership Form
         </h2>
         
         <form className="space-y-4">
@@ -85,7 +85,7 @@ function Membership() {
             </label>
             <textarea
               id="reason"
-              
+              rows="4"
               className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-emerald-500"
               placeholder="Explain why you want to join the political movement"
               required

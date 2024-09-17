@@ -63,14 +63,10 @@ function News() {
           Quick links
           </span>
         </DropdownMenuItem>
-        <DropdownMenuItem asChild>
-          <span className="text-gray-500 cursor-not-allowed">
-          Contact us
-          </span>
-        </DropdownMenuItem>
-          {/* <DropdownMenuItem asChild>
+        
+          <DropdownMenuItem asChild>
             <Link href="/ContactUs">Contact us</Link>
-          </DropdownMenuItem> */}
+          </DropdownMenuItem>
         </DropdownMenuContent>
       </DropdownMenu>
     </div>

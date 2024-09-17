@@ -65,7 +65,7 @@ function News() {
         </DropdownMenuItem>
         <DropdownMenuItem asChild>
           <span className="text-gray-500 cursor-not-allowed">
-          Contact us
+          Quick links
           </span>
         </DropdownMenuItem>
           {/* <DropdownMenuItem asChild>

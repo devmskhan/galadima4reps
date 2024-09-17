@@ -1,8 +1,8 @@
 import Header from "../components/Header"
-import "../app/globals.css";
 
 
-function Empowerment() {
+
+function Gallery() {
     return (
         <div className="bg-gray-400">
             <Header/>
@@ -11,6 +11,6 @@ function Empowerment() {
     )
 };
 
-export default Empowerment;
+export default Gallery;
 
 
